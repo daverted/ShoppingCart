@@ -39,19 +39,19 @@ public class MainTesting {
 
 	}
 	
-	public int returnInteger(int a) {
-            int b = 12;
-            if (a == 1) {
-               return b;
-            }
-        return b;
+    public int returnInteger(int a) {
+        int b = 12;
+        if (a == 1) {
+           return b;
         }
+    return b;
+    }
 
-       public int returnIntr(int a) {
-            int b = 1000;
-            if (a == 100) {
-               return b;
-            }
-        return b;
+   public int returnIntr(int a) {
+        int b = 1000;
+        if (a == 100) {
+           return b;
         }
+    return b;
+    }
 }
