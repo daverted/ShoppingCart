@@ -8,10 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.empire.shoppingcart.dao.SkuDAO;
-import com.empire.shoppingcart.dao.impl.SkuDAOImpl;
-import com.empire.shoppingcart.domain.SKU;
-import com.empire.shoppingcart.exception.ShoppingCartException;
+import com.prime.shoppingcart.dao.SkuDAO;
+import com.prime.shoppingcart.dao.impl.SkuDAOImpl;
+import com.prime.shoppingcart.domain.SKU;
+import com.prime.shoppingcart.exception.ShoppingCartException;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
