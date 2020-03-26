@@ -1,5 +1,7 @@
 FROM openjdk:11
 
+RUN apt-get update; apt-get install nano
+
 WORKDIR /opt
 RUN wget --content-disposition https://app.overops.com/app/download?t=sa-tgz
 RUN tar xvzf takipi-agent-*.tar.gz

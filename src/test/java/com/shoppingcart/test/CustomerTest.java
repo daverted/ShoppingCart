@@ -11,10 +11,10 @@ import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.empire.mockdata.generate.DelayGenerator;
-import com.empire.shoppingcart.dao.CustomerDAO;
-import com.empire.shoppingcart.dao.impl.CustomerDAOImpl;
-import com.empire.shoppingcart.domain.Customer;
+import com.prime.mockdata.generate.DelayGenerator;
+import com.prime.shoppingcart.dao.CustomerDAO;
+import com.prime.shoppingcart.dao.impl.CustomerDAOImpl;
+import com.prime.shoppingcart.domain.Customer;
 
 public class CustomerTest {
 
