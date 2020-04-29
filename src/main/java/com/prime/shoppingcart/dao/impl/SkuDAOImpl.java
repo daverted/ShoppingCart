@@ -27,7 +27,7 @@ public class SkuDAOImpl implements SkuDAO {
 	}
 
 	@Override
-	public SKU create(String skuNumber) {
+	public SKU create2(String skuNumber) {
 		log.info("Creating a Sku");
 		return dataGenerator.generateRandomSku(skuNumber);
 	}
