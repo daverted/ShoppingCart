@@ -28,7 +28,7 @@ public class CustomerTest {
 			log.info("Starting Application ... Waiting for 15 seconds for OverOps to Initialize");
 			DelayGenerator.introduceDelay(15000);
 			customerDAO = new CustomerDAOImpl();
-			customer = customerDAO.create("CUSTTEST3000");
+			customer = customerDAO.create("CUSTTEST5000");
 		} catch (Exception e) {
 			log.error("Could not create customer");
 		}
@@ -39,7 +39,7 @@ public class CustomerTest {
 		if (customer == null) {
 			assertNull(customer, "Cannot validate account Numner. Customer is null.");
 		} else {
-			assertEquals(customer.getAccountNumber(), "CUSTTEST3000", "Customer Number is not available");
+			assertEquals(customer.getAccountNumber(), "CUSTTEST5000", "Customer Number is not available");
 		}
 	}
 

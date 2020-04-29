@@ -26,7 +26,7 @@ public class SkuTest {
 	static void setUpBeforeClass() throws Exception {
 		try {
 			skuDAO = new SkuDAOImpl();
-			sku = skuDAO.create("SKUTEST4000");
+			sku = skuDAO.create("SKUTEST9000");
 		} catch (Exception e) {
 			log.error("Could not create Skew");
 		}
@@ -37,7 +37,7 @@ public class SkuTest {
 		if (sku == null) {
 			assertNull(sku, "Cannot validate Sku. Sku is null.");
 		} else {
-			assertEquals(sku.getSkuNumber(), "SKUTEST4000", "Sku Number is not available");
+			assertEquals(sku.getSkuNumber(), "SKUTEST9000", "Sku Number is not available");
 		}
 	}
 	
